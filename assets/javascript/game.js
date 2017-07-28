@@ -28,10 +28,6 @@ var triviaCounter;
 
 var clock;
 
-var images = ["assets/images/jumpman.gif","assets/images/tvGame.gif","assets/images/pauline.gif"
-,"assets/images/doki.gif","assets/images/wario.gif","assets/images/waluigi.gif","assets/images/mother.gif"
-,"assets/images/nintendo","assets/images/game&watch.gif","assets/images/iwata.gif"];
-
 //trivia object stores arrays filled with a question,
 //3 bogus questions and an answer. 
 //at the end of the array is stored a number that refers to the order of questions
