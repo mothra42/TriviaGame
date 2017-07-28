@@ -1,0 +1,19 @@
+HTML 
+
+Need start button
+need to be able to make four buttons on the fly and post them under timer and question
+other than simple layout.
+
+JS
+
+Need several different timers
+
+One timer that gives player time to answer question
+
+another timer that waits while the answer is displayed to give player time to recollect.  LOOK AT TIMER EXERCISES
+
+Can store trivia questions and answers as objects. LOOK AT TRIVIA EXERCISE
+
+need a question counter to see how many right/wrong answers. need possibility for unanswered/timeout.
+
+can use timer to run function that displays question and possible answers.

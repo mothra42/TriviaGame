@@ -1,0 +1,105 @@
+body {
+	background: url(../images/nes.jpg);
+	background-size: cover;
+}
+
+h1 {
+	margin: 20px;
+	font-size: 50px;
+	margin-top: 0px;
+}
+
+h2 {
+	font-size: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+body:hover {
+	cursor: default;
+}
+
+.container {
+	width: 75%;
+}
+
+.title {
+	text-align: center;
+	font-family: 'Audiowide', cursive;
+	color: #DE0000;
+}
+
+.content {
+	background-color: #BEA273;
+	height: 550px;
+}
+.question {
+	font-size: 45px;
+}
+
+.answer {
+	font-size: 40px;
+	margin-top: 10px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+#timer {
+	font-size: 35px;
+}
+
+.answer, .question, 
+.response, .results, #timer {
+	font-family: 'Dhurjati', sans-serif;
+}
+
+.hovered {
+	background-color : #807E81;
+	border : 2px solid #DE0000;
+}
+
+.start, .reset {
+	font-family: 'Audiowide', cursive;
+	background-color: #807E81;
+	border : 1px solid black;
+	color: #d63333;
+	width: 150px;
+	font-size: 45px;
+}
+
+.start:active {
+	background-color: #2F312C;
+}
+
+.reset:active {
+	background-color: #2F312C;
+}
+
+.reset {
+	width: 285px;
+}
+
+.unanswered {
+	margin-bottom: 20px;
+}
+
+.gif {
+	height: 300px;
+	width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
