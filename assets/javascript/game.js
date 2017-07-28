@@ -20,9 +20,6 @@ var questionOrder = [];
 
 var answerOrder = [];
 
-//counter will keep track of current index in order.
-var counter;
-
 //trivia counter will cycle through different elements of trivia object
 var triviaCounter;
 
@@ -202,7 +199,6 @@ function initialize()
 	right = 0;
 	wrong = 0;
 	unanswered =0;
-	counter =0;
 	clock = 10;
 	triviaCounter = 0;
 	questionOrder = ranOrder(10);
