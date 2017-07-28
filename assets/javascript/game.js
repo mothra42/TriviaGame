@@ -20,10 +20,17 @@ var questionOrder = [];
 
 var answerOrder = [];
 
+//counter will keep track of current index in order.
+var counter;
+
 //trivia counter will cycle through different elements of trivia object
 var triviaCounter;
 
 var clock;
+
+// var images = ["assets/images/jumpman.gif","assets/images/tvGame.gif","assets/images/pauline.gif"
+// ,"assets/images/doki.gif","assets/images/wario.gif","assets/images/waluigi.gif","assets/images/mother.gif"
+// ,"assets/images/nintendo","assets/images/game&watch.gif","assets/images/iwata.gif"];
 
 //trivia object stores arrays filled with a question,
 //3 bogus questions and an answer. 
@@ -199,6 +206,7 @@ function initialize()
 	right = 0;
 	wrong = 0;
 	unanswered =0;
+	counter =0;
 	clock = 10;
 	triviaCounter = 0;
 	questionOrder = ranOrder(10);
